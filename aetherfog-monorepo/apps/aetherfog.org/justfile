@@ -1,0 +1,9 @@
+
+help:
+    just --list
+
+default:
+    help
+
+afwebdev:
+  doppler run -- pnpm dev
